@@ -16,10 +16,12 @@ namespace Calculator
         {
             InitializeComponent();
         }
-
+        
         private void btn0_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Button about to be clicked");
             txtResult.Text = txtResult.Text + "0";
+            MessageBox.Show("Button Clicked");
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -29,6 +31,7 @@ namespace Calculator
 
         private void btn2_Click(object sender, EventArgs e)
         {
+
             txtResult.Text = txtResult.Text + "2";
         }
 
