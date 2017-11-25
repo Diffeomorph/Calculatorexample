@@ -252,6 +252,7 @@
             this.btnequals.TabIndex = 19;
             this.btnequals.Text = "=";
             this.btnequals.UseVisualStyleBackColor = true;
+            this.btnequals.Click += new System.EventHandler(this.btnequals_Click);
             // 
             // btnminus
             // 

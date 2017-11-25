@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using NCalc;
 
 namespace Calculator
 {
@@ -94,5 +95,16 @@ namespace Calculator
         {
             txtResult.Text = txtResult.Text + "%";
         }
+
+        private void btnequals_Click(object sender, EventArgs e)
+        {
+            string str1 = txtResult.Text;
+            //MessageBox.Show(str1);
+            Expression str2 = new Expression(str1);
+            string str3 = str2.Evaluate().ToString();
+            //MessageBox.Show(str3);
+            txtResult.Text = str3;
+        }
+
     }
 }

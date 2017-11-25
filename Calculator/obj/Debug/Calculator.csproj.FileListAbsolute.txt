@@ -8,3 +8,4 @@ C:\Users\gf1721\Documents\Projects\Calculator\Calculator\bin\Debug\Calculator.ex
 C:\Users\gf1721\Documents\Projects\Calculator\Calculator\bin\Debug\Calculator.pdb
 C:\Users\gf1721\Documents\Projects\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\gf1721\Documents\Projects\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\gf1721\Documents\Projects\Calculator\Calculator\bin\Debug\NCalc.dll
